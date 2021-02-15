@@ -15,8 +15,8 @@ header, .project-header {
     text-align: center;
 }
 
-.purple {
-    color: #a780b9;
+.blue {
+    color: #70b3ff;
 }
 
 main {
@@ -36,13 +36,13 @@ h3, p {
 .wrapper {
     position: relative;
     margin-top: 20px;
-    background-color: #a780b9;
+    background-color: #70b3ff;
     max-width: 500px;
     transition: 0.2s;
 }
 
 .wrapper:hover {
-    background-color: #cdb2da;
+    background-color: #a4cfff;
 }
 
 .project {
