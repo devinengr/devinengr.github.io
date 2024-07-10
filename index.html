@@ -4,27 +4,57 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Devin's Projects</title>
-    
+    <title>Devin's Portfolio</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500&display=swap">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="assets/stylesheets/normalize.css">
+    <link rel="stylesheet" href="assets/stylesheets/index.css">
+    <link rel="stylesheet" href="assets/stylesheets/util.css">
+    <link rel="stylesheet" href="assets/stylesheets/widget.css">
 </head>
 <body>
     <!-- Prevents CSS transition firing when the page loads (Chrome bug?) -->
     <script> </script>
 
-    <header>
-        <h1 class="title">Devin<span class="blue">.onl</span></h1>
+    <header class="header">
+        <h1 class="title">Devin's <span class="blue">Portfolio</span></h1>
     </header>
     
     <main>
-        <h3 class="project-header">Projects</h3>
-        <div class="wrapper">
-            <section class="project">
-                <h3>Coming soon</h3>
-            </section>
-        </div>
+        <h3 class="subheader">Projects</h3>
+        <a href="https://github.com/devinengr/mc-nova-bomb" target="_blank">
+            <div class="widget-wrapper">
+                <div class="widget widget-overlap rounded widget-bg-nova-bomb">
+                    <h3 class="widget-title">Nova Bomb (Minecraft Plugin)</h3>
+                    <!-- Size is 101 to hide a 1-pixel bar where the background repeats (bug?) -->
+                    <video class="rounded show-on-hover" width="101%" height="101%" autoplay muted loop>
+                        <source src="assets/resources/mc_nova_bomb.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </a>
+        <a href="">
+            <div class="widget-wrapper widget-right widget-bottom">
+                <div class="widget widget-overlap rounded hover-shadow" id="particles-js">
+                    <h3 class="widget-title">Coming soon</h3>
+                </div>
+            </div>
+        </a>
     </main>
+
+    <footer>
+        <h3 class="footer-title">
+            <i class="fa fa-github blue"></i>
+            <a href="https://github.com/devinengr" target="_blank">GitHub</a>
+            &nbsp;<a>&nbsp;|&nbsp;</a>&nbsp;
+            <i class="fa fa-square blue"></i>
+            <a href="https://github.com/VincentGarreau/particles.js" target="_blank">Particles.js</a>
+        </h3>
+    </footer>
+
+    <script src="assets/vendor/particles-js/particles.min.js"></script>
+    <script src="assets/javascript/loader.js"></script>
 </body>
 </html>
