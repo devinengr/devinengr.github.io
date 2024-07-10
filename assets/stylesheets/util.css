@@ -1,0 +1,42 @@
+
+/* Padding */
+
+.pad-top {
+    padding-top: 20px;
+}
+
+.pad-bot {
+    padding-bottom: 20px;
+}
+
+.pad-left {
+    padding-left: 20px;
+}
+
+.pad-right {
+    padding-right: 20px;
+}
+
+
+/* Misc */
+
+.rounded {
+    border-radius: 10px;
+}
+
+.hover-shadow:hover {
+
+}
+
+.blue {
+    color: #70b3ff;
+}
+
+.show-on-hover {
+    opacity: 0%;
+    transition: 0.2s;
+}
+
+.show-on-hover:hover {
+    opacity: 100%;
+}
