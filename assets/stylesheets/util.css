@@ -40,3 +40,9 @@
 .show-on-hover:hover {
     opacity: 100%;
 }
+
+.video-portrait {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
