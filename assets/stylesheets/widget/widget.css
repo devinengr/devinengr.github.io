@@ -67,12 +67,11 @@
 
 .widget:hover {
     z-index: 2;
-    box-shadow: #3d3d3d 0 5px 25px 1px;
 }
 
 /* Widget overlap */
 
-.widget-overlap {
+.widget-overlap, .widget-overlap-phone {
     left: 0;
     top: 0;
     width: 100%;
@@ -88,10 +87,7 @@
     top: -5%;
     width: 110%;
     height: 110%;
-}
-
-.widget-overlap-portrait:hover {
-    top: 0%;
+    box-shadow: #3d3d3d 0 5px 25px 1px;
 }
 
 /* Widget title */
