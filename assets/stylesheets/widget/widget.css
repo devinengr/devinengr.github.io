@@ -1,4 +1,22 @@
 
+/* Container of the widgets */
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+/* Widget container */
+
+.widget-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
 /* Widget wrapper */
 
 .widget-wrapper {
@@ -6,32 +24,35 @@
     width: 100%;
     min-width: 100px;
     min-height: 100px;
-    max-width: 700px;
-    display: flexbox;
-    margin-top: 4%;
-    float: left;
+}
+
+.widget-link {
+    width: 100%;
 }
 
 .widget-wrapper-portrait {
     aspect-ratio: 9/18;
 }
 
-
 /* Resize widgets when the screen is smaller */
 
-@media screen and (min-width: 800px) {
-    .widget-wrapper {
-        width: 48.5%;
-        margin-top: 2%;
+@media screen and (min-width: 600px) {
+    .content {
+        flex-direction: row;
     }
 
-    .widget-right {
-        float: right;
-        margin-right: 0;
-        margin-left: auto;
+    .widget-container-wide {
+        width: 66%;
+    }
+
+    .widget-container-skinny {
+        width: 30%;
+    }
+
+    .widget-container-span-half-wide {
+        width: 48%;
     }
 }
-
 
 /* Widget */
 
@@ -48,7 +69,6 @@
     z-index: 2;
     box-shadow: #3d3d3d 0 5px 25px 1px;
 }
-
 
 /* Widget overlap */
 
@@ -70,6 +90,9 @@
     height: 110%;
 }
 
+.widget-overlap-portrait:hover {
+    top: 0%;
+}
 
 /* Widget title */
 
@@ -85,22 +108,4 @@
     border-radius: 10px;
     z-index: 2;
     color: black;
-}
-
-
-/* Widget background */
-
-.widget-bg-nova-bomb {
-    background-image: url("../resources/mc_nova_bomb.png");
-}
-
-.widget-bg-particles {
-    background-image: url("../resources/particles_orbit.png");
-}
-
-.widget-bg-ship-quest {
-    background-image: url("../resources/mini_fsc.png");
-    background-position: 50%;
-    background-repeat: no-repeat;
-    background-size: 360%;
 }
