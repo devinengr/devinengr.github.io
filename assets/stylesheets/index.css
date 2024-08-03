@@ -37,8 +37,7 @@ footer {
 }
 
 main {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 50px;
 }
 
 h3, p {
