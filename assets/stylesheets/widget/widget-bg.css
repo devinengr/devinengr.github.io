@@ -21,3 +21,7 @@
 .widget-bg-class-scheduler {
     background-image: url("../../resources/class_scheduler/class_scheduler_demo_start.png");
 }
+
+.widget-bg-isolation-game {
+    background-image: url("../../resources/isolation_game/isolation_player_random.png");
+}
