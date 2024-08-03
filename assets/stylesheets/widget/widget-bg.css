@@ -1,10 +1,10 @@
 
 .widget-bg-nova-bomb {
-    background-image: url("../../resources/minecraft/mc_nova_bomb.png");
+    background-image: url("../../resources/minecraft_nova_bomb/mc_nova_bomb.png");
 }
 
 .widget-bg-particles {
-    background-image: url("../../resources/minecraft/particles_orbit.png");
+    background-image: url("../../resources/minecraft_particles/particles_orbit.png");
 }
 
 .widget-bg-ship-quest {
@@ -19,9 +19,17 @@
 }
 
 .widget-bg-class-scheduler {
-    background-image: url("../../resources/class_scheduler/class_scheduler_demo_start.png");
+    background-image: url("../../resources/class_scheduler/class_scheduler_demo.png");
 }
 
 .widget-bg-isolation-game {
     background-image: url("../../resources/isolation_game/isolation_player_random.png");
+}
+
+.widget-bg-lang-compare {
+    background-image: url("../../resources/lang_compare/lang_compare_c.png");
+}
+
+.widget-bg-matrix-multiply {
+    background-image: url("../../resources/matrix_multiply/matrix_strassens_n5.png");
 }
