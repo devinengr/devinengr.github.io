@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="assets/stylesheets/widget/widget.css">
     <link rel="stylesheet" href="assets/stylesheets/widget/widget-bg.css">
     <link rel="stylesheet" href="assets/stylesheets/widget/widget-margin.css">
+    <link rel="stylesheet" href="assets/stylesheets/particle-bg.css">
 </head>
 <body>
     <!-- Prevents CSS transition firing when the page loads (Chrome bug?) -->
@@ -25,7 +26,7 @@
         <h1 class="title">Devin's <span class="blue">Portfolio</span></h1>
     </header>
     
-    <main id="particle-js">
+    <main>
         <div class="content">
             <h3 class="subheader">Projects</h3>
             <div class="widget-container widget-container-wide mr-4perc-sc-lg mt-25px-sc-all mb-25px-sc-all">
@@ -72,7 +73,7 @@
             <h3 class="subheader">AI</h3>
             <div class="widget-container widget-container-span-half-wide mt-25px-sc-all mb-25px-sc-all mr-4perc-sc-lg">
                 <a class="widget-link" href="https://github.com/devinengr/isolation-game" target="_blank">
-                    <div class="widget-wrapper widget-wrapper-no-margin-top-wide widget-wrapper-no-margin-top-skinny">
+                    <div class="widget-wrapper">
                         <div class="widget widget-overlap rounded widget-bg-isolation-game">
                             <h3 class="widget-title">Isolation (Game)</h3>
                             <!-- Size is 101 to hide a 1-pixel bar where the background repeats (bug?) -->
@@ -98,7 +99,7 @@
             </div>
             <h3 class="subheader">Command-Line Tools</h3>
             <div class="widget-container widget-container-span-half-wide mt-25px-sc-all mr-4perc-sc-lg">
-                <a class="widget-link" href="https://github.com/devinengr/pdf-merger">
+                <a class="widget-link" href="https://github.com/devinengr/pdf-merger" target="_blank">
                     <div class="widget-wrapper mb-25px-sc-all">
                         <div class="widget widget-overlap rounded widget-bg-pdf-merger">
                             <h3 class="widget-title">PDF Merger</h3>
@@ -109,7 +110,7 @@
                         </div>
                     </div>
                 </a>
-                <a class="widget-link" href="https://github.com/devinengr/matrix-multiply">
+                <a class="widget-link" href="https://github.com/devinengr/matrix-multiply" target="_blank">
                     <div class="widget-wrapper">
                         <div class="widget widget-overlap rounded widget-bg-matrix-multiply">
                             <h3 class="widget-title">Matrix Multiply</h3>
@@ -122,7 +123,7 @@
                 </a>
             </div>
             <div class="widget-container widget-container-span-half-wide mt-25px-sc-all">
-                <a class="widget-link" href="https://github.com/devinengr/lang-compare">
+                <a class="widget-link" href="https://github.com/devinengr/lang-compare" target="_blank">
                     <div class="widget-wrapper">
                         <div class="widget widget-overlap rounded widget-bg-lang-compare">
                             <h3 class="widget-title">Lang Compare</h3>
@@ -135,6 +136,8 @@
                 </a>
             </div>
         </div>
+
+    <div id="particles-js"></div>
     </main>
 
     <footer>
@@ -146,6 +149,7 @@
             <a href="https://github.com/VincentGarreau/particles.js" target="_blank">Particles.js</a>
         </h3>
     </footer>
+
 
     <script src="assets/vendor/particles-js/particles.min.js"></script>
     <script src="assets/javascript/loader.js"></script>

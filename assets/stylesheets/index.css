@@ -37,10 +37,8 @@ footer {
 }
 
 main {
-    max-width: 900px;
-    position: relative;
-    padding: 50px;
-    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 h3, p {
