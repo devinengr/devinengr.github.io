@@ -1,23 +1,23 @@
 
 .widget-bg-nova-bomb {
-    background-image: url("../../resources/mc_nova_bomb.png");
+    background-image: url("../../resources/minecraft/mc_nova_bomb.png");
 }
 
 .widget-bg-particles {
-    background-image: url("../../resources/particles_orbit.png");
+    background-image: url("../../resources/minecraft/particles_orbit.png");
 }
 
 .widget-bg-ship-quest {
-    background-image: url("../../resources/mini_fsc.png");
+    background-image: url("../../resources/ship_quest/mini_fsc.png");
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: 360%;
 }
 
 .widget-bg-pdf-merger {
-    background-image: url("../../resources/pdf_merger_demo_source.png");
+    background-image: url("../../resources/pdf_merger/pdf_merger_demo_source.png");
 }
 
 .widget-bg-class-scheduler {
-    background-image: url("../../resources/class_scheduler_demo_start.png");
+    background-image: url("../../resources/class_scheduler/class_scheduler_demo_start.png");
 }
