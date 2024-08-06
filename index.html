@@ -17,17 +17,21 @@
     <link rel="stylesheet" href="assets/stylesheets/widget/widget-bg.css">
     <link rel="stylesheet" href="assets/stylesheets/widget/widget-margin.css">
     <link rel="stylesheet" href="assets/stylesheets/particle-bg.css">
+    <link rel="stylesheet" href="assets/stylesheets/noscript.css">
 </head>
 <body>
     <!-- Prevents CSS transition firing when the page loads (Chrome bug?) -->
     <script> </script>
 
     <header class="header">
-        <h1 class="title">Devin's <span class="blue">Portfolio</span></h1>
+        <h1 class="title">Devin's <span class="blue blue-shadow">Portfolio</span></h1>
     </header>
     
     <main>
         <div class="content">
+            <noscript>
+                <h3 class="subheader nojs">Enable Javascript for the best experience.</h3>
+            </noscript>
             <h3 class="subheader">Projects</h3>
             <div class="widget-container widget-container-wide mr-4perc-sc-lg mt-25px-sc-all mb-25px-sc-all">
                 <a class="widget-link" href="https://github.com/devinengr/mc-nova-bomb" target="_blank">
@@ -35,7 +39,7 @@
                         <div class="widget widget-overlap rounded widget-bg-nova-bomb">
                             <h3 class="widget-title">Nova Bomb (Minecraft Plugin)</h3>
                             <!-- Size is 101 to hide a 1-pixel bar where the background repeats (bug?) -->
-                            <video class="rounded show-on-hover" width="101%" height="101%" autoplay muted loop>
+                            <video class="rounded" width="101%" height="101%" muted loop>
                                 <source src="assets/resources/minecraft_nova_bomb/mc_nova_bomb.mp4" type="video/mp4">
                             </video>
                         </div>
@@ -46,7 +50,7 @@
                         <div class="widget widget-overlap rounded widget-bg-particles">
                             <h3 class="widget-title">Particles (Minecraft Plugin)</h3>
                             <!-- Size is 101 to hide a 1-pixel bar where the background repeats (bug?) -->
-                            <video class="rounded show-on-hover" width="101%" height="101%" autoplay muted loop>
+                            <video class="rounded" width="101%" height="101%" muted loop>
                                 <source src="assets/resources/minecraft_particles/particles_orbit.mp4" type="video/mp4">
                             </video>
                         </div>
@@ -62,7 +66,7 @@
                             <div class="widget widget-overlap-phone rounded widget-bg-ship-quest">
                                 <h3 class="widget-title">Ship Quest Prototype</h3>
                                 <!-- Video is in landscape, but content is in portrait. Increase width to remove black background -->
-                                <video class="rounded show-on-hover video-portrait"  width="360%" autoplay muted loop>
+                                <video class="rounded video-portrait"  width="360%" muted loop>
                                     <source src="assets/resources/ship_quest/mini_fsc.mp4" type="video/mp4">
                                 </video>
                             </div>
@@ -77,7 +81,7 @@
                         <div class="widget widget-overlap rounded widget-bg-isolation-game">
                             <h3 class="widget-title">Isolation (Game)</h3>
                             <!-- Size is 101 to hide a 1-pixel bar where the background repeats (bug?) -->
-                            <video class="rounded show-on-hover" width="101%" height="101%" autoplay muted loop>
+                            <video class="rounded" width="101%" height="101%" muted loop>
                                 <source src="assets/resources/isolation_game/isolation_player_random.mp4" type="video/mp4">
                             </video>
                         </div>
@@ -90,7 +94,7 @@
                         <div class="widget widget-overlap rounded widget-bg-class-scheduler">
                             <h3 class="widget-title">Class Scheduler</h3>
                             <!-- Size is 101 to hide a 1-pixel bar where the background repeats (bug?) -->
-                            <video class="rounded show-on-hover" width="101%" height="101%" autoplay muted loop>
+                            <video class="rounded" width="101%" height="101%" muted loop>
                                 <source src="assets/resources/class_scheduler/class_scheduler_demo.mp4" type="video/mp4">
                             </video>
                         </div>
@@ -104,7 +108,7 @@
                         <div class="widget widget-overlap rounded widget-bg-pdf-merger">
                             <h3 class="widget-title">PDF Merger</h3>
                             <!-- Size is 101 to hide a 1-pixel bar where the background repeats (bug?) -->
-                            <video class="rounded show-on-hover" width="101%" height="101%" autoplay muted loop>
+                            <video class="rounded" width="101%" height="101%" muted loop>
                                 <source src="assets/resources/pdf_merger/pdf_merger_demo_source.mp4" type="video/mp4">
                             </video>
                         </div>
@@ -115,7 +119,7 @@
                         <div class="widget widget-overlap rounded widget-bg-matrix-multiply">
                             <h3 class="widget-title">Matrix Multiply</h3>
                             <!-- Size is 101 to hide a 1-pixel bar where the background repeats (bug?) -->
-                            <video class="rounded show-on-hover" width="101%" height="101%" autoplay muted loop>
+                            <video class="rounded" width="101%" height="101%" muted loop>
                                 <source src="assets/resources/matrix_multiply/matrix_strassens_n5.mp4" type="video/mp4">
                             </video>
                         </div>
@@ -128,7 +132,7 @@
                         <div class="widget widget-overlap rounded widget-bg-lang-compare">
                             <h3 class="widget-title">Lang Compare</h3>
                             <!-- Size is 101 to hide a 1-pixel bar where the background repeats (bug?) -->
-                            <video class="rounded show-on-hover" width="101%" height="101%" autoplay muted loop>
+                            <video class="rounded" width="101%" height="101%" muted loop>
                                 <source src="assets/resources/lang_compare/lang_compare_c.mp4" type="video/mp4">
                             </video>
                         </div>
@@ -153,5 +157,6 @@
 
     <script src="assets/vendor/particles-js/particles.min.js"></script>
     <script src="assets/javascript/loader.js"></script>
+    <script src="assets/javascript/video.js"></script>
 </body>
 </html>

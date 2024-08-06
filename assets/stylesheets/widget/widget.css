@@ -57,8 +57,6 @@
 /* Widget */
 
 .widget {
-    background-color: #70b3ff;
-    background-size: 101%; /* Hide a 1-pixel bar where the background repeats (bug?) */
     transition: 0.2s;
     position: relative;
     width: 100%;
@@ -89,6 +87,7 @@
     height: 110%;
     box-shadow: #3d3d3d 0 5px 25px 1px;
 }
+
 
 /* Widget title */
 
